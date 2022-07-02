@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 100vh;  
+}
+
+.container > .sidebar {
+  background-color: grey;
+}
+
+.container > .sidebar > .dash_box {
+  background-color: cadetblue;
+}
+
+.container > .sidebar > .settings_box {
+  background-color: aquamarine;
+}
