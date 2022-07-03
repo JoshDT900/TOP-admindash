@@ -9,7 +9,7 @@
 }
 
 body {
-  height: 100vh;
+  
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 1fr 8fr;
   border: 1px solid black;
-  height: 100vh;  
+  height: 100vh;
 }
 
 .sidebar {
@@ -28,7 +28,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 8fr;
-  align-items: center;
 }
 
 .sidebar > div {
@@ -80,15 +79,9 @@ body {
 }
 
 .search_bar {
-  /* display: flex;
-  align-self: center;
-  height: 40%;
-  padding: 10px; */
   display: grid;
-  grid-auto-columns: 1fr 5fr;
+  grid-auto-columns: 0.25fr 5fr;
   grid-auto-flow: column;
-  align-content: center;
-  justify-content: center;
   align-items: center;
   gap: 20px;
 }
@@ -101,7 +94,6 @@ body {
   border-radius: 30px;
   border: 3px solid #475569;
   background-color: #d3d5d8;
-  width: 80%;
   padding: 3px;
   flex: 1;
 }
