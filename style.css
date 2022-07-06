@@ -209,6 +209,8 @@ body {
   padding: 35px;
   gap: 10px;
   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  background-color: #e2e8f0;
+  z-index: -1;
 }
 
 .content > .card_title {
@@ -238,8 +240,11 @@ body {
   width: 275px;
   height: 300px;
   border: 1px solid grey;
+  font-size: 20px;
   border-radius: 55px;
   box-shadow: 10px 5px 5px gray;
+  background-color: #334155;
+  color: #f1f5f9;
 }
 
 .card > .card_btns {
