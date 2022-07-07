@@ -333,5 +333,37 @@ body {
 .content > .trend_box > div:nth-child(8) {
   grid-area: 4 / 2 / 5 / 3;
 }
+.content > .announce_box {
+  padding: 20px;
+  display: grid;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px gray;
+  background-color: #334155;
+  color: #f1f5f9;
+  gap: 15px;
+}
+
+.content > .announce_box > div {
+  padding-bottom: 15px;
+  align-items: center;
+  border-bottom: 2px solid white;
+  display: grid;
+  gap: 10px;
+}
+
+.content > .announce_box > div:nth-child(3) {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+.content > .announce_box > div > p:nth-child(1) {
+  color: #f1f5f9;
+  font-weight: bold;
+}
+
+.content > .announce_box > div > p:nth-child(2) {
+  color: #d3d5d8;
+  font-size: 14px;
+}
 
 
